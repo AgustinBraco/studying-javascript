@@ -3,7 +3,7 @@ const register = (registerEmail, registerPassword) => {
     for (let i = 0; i >= 0; i++) {
         if ( registerEmail.match(/[@]/) && registerEmail.match(/[.com]/)) { 
             alert(`Mail registrado`)
-            break
+            break;
         } else {
             alert(`Formato de mail incorrecto, debe contenter "@" y ".com"`)
             registerEmail = prompt(`Ingrese su mail nuevamente`);
@@ -14,7 +14,7 @@ const register = (registerEmail, registerPassword) => {
     
         if (registerPassword.match(/[0123456789]/) && registerPassword.length > 8) {
             alert(`Contraseña registrada`)
-            break
+            break;
         } else {
             alert(`Su contraseña debe tener más de 8 caracteres y contener un número`)
             registerPassword = prompt(`Ingrese su contraseña nuevamente`);
@@ -27,7 +27,7 @@ const logIn = (logEmail, logPassword) => {
     for (let i = 0; i >= 0; i++) {
         if ( logEmail === registerEmail && logPassword === registerPassword ) { 
             alert(`Bienvenido ${registerName}`)
-            break
+            break;
         } else if (logEmail !== registerEmail){
             alert(`Su email es incorrecto`)
             logEmail = prompt(`Ingrese su mail nuevamente`);
