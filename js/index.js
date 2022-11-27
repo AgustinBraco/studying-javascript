@@ -9,14 +9,25 @@ const comprobarCaracteres = ( comentario ) => {
 
 alert(`¡Bienvenido/a! \n A continuación podrás dejar tu nombre y un comentario`);
 
-// Solicitud de datos
+// SOLICITUD DE DATOS
 let nombre = prompt(`Ingrese su nombre`);
 let comentario = prompt(`Ingrese un comentario de hasta 30 caracteres`);
 
-// Ejecución de la función
+// Llamado a la función
 comprobarCaracteres(comentario);
 
-// Bucle con solicitudes de amistad
+// Declaración de usuarios
+const usuarioUno = "Agustin"
+const usuarioDos = "Fátima"
+const usuarioTres = "Carlos"
+
+// Bucle de 3 solicitudes
 for (let i = 0; i < 3; i++) {
-    confirm(`El usuario ${i} te envío una solicitud de amistad`)
+    if ( i === 0 ) {
+        confirm(`El usuario ${usuarioUno} te envío una solicitud de amistad`)
+    } else if ( i === 1 ) {
+        confirm(`El usuario ${usuarioDos} te envío una solicitud de amistad`)   
+    } else if ( i === 2 ) {
+        confirm(`El usuario ${usuarioTres} te envío una solicitud de amistad`)
+    }
 };
