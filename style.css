@@ -1,0 +1,42 @@
+header {
+    height: 15vh;
+}
+
+main {
+    height: 70vh;
+}
+
+footer {
+    height: 15vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.imgPokemon {
+    width: 120px;
+    height: 120px; 
+}
+
+.textPokemon {
+    font-size: 22px;
+    color: black;
+    font-weight: normal;
+
+}
