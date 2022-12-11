@@ -1,153 +1,172 @@
 const product  = [{
     "id": 1,
-    "brand": "Adidas",
+    "brand": "Adidas black",
     "color": [
       "black",
       "white"
     ],
-    "price": 10000,
-    "img": "IMG",
+    "price": 7000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/adidas-black.jpg",
     "sale": true,
 },
 {
     "id": 2,
-    "brand": "Nike",
+    "brand": "Adidas blue",
     "color": [
-      "white"
+      "blue",
+      " white",
+      " black"
     ],
     "price": 10000,
-    "img": "-----",
-    "sale": true,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/adidas-blue.jpg",
+    "sale": false,
   },
   {
     "id": 3,
-    "brand": "Nike",
+    "brand": "Adidas green",
     "color": [
-      "white"
+      "green",
+      " white",
     ],
     "price": 10000,
-    "img": "-----",
-    "sale": true,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/adidas-green.jpg",
+    "sale": false,
   },
   {
     "id": 4,
-    "brand": "Nike",
+    "brand": "Adidas red",
     "color": [
-      "white"
+      "red",
+      " white",
     ],
-    "price": 10000,
-    "img": "-----",
+    "price": 7000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/adidas-red.jpg",
     "sale": true,
   },
   {
     "id": 5,
-    "brand": "Nike",
+    "brand": "Adidas white",
     "color": [
-      "white"
+      "white",
+      " black",
     ],
     "price": 10000,
-    "img": "-----",
-    "sale": true,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/adidas-white.jpg",
+    "sale": false,
   },
   {
     "id": 6,
-    "brand": "Adidas",
+    "brand": "Nike beige",
     "color": [
-      "white"
+      "beige",
+      "  white",
     ],
-    "price": 10000,
-    "img": "-----",
-    "sale": true,
+    "price": 12000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/nike-beige.jpg",
+    "sale": false,
   },
   {
     "id": 7,
-    "brand": "Adidas",
+    "brand": "Nike black",
     "color": [
-      "white"
+      "black",
+      "  white",
     ],
-    "price": 10000,
-    "img": "-----",
+    "price": 9000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/nike-black.jpg",
     "sale": true,
   },
   {
     "id": 8,
-    "brand": "Adidas",
+    "brand": "Nike orange",
     "color": [
-      "white"
+      "orange",
+      "  blue",
+      "  red",
     ],
-    "price": 10000,
-    "img": "-----",
+    "price": 9000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/nike-orange.jpg",
     "sale": true,
   },
   {
     "id": 9,
-    "brand": "Adidas",
+    "brand": "Nike purple",
     "color": [
-      "white"
+      "purple",
+      "  pink",
+      "  white",
     ],
-    "price": 10000,
-    "img": "-----",
-    "sale": true,
+    "price": 12000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/nike-purple.jpg",
+    "sale": false,
   },
   {
     "id": 10,
-    "brand": "Adidas",
+    "brand": "Nike white",
     "color": [
-      "white"
+      "white",
     ],
-    "price": 10000,
-    "img": "-----",
-    "sale": true,
+    "price": 12000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/nike-white.jpg",
+    "sale": false,
   },
   {
     "id": 11,
-    "brand": "Puma",
+    "brand": "Puma colors",
     "color": [
-      "white"
+      "blue",
+      " yellow",
+      " pink",
     ],
-    "price": 10000,
-    "img": "-----",
+    "price": 5000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/puma-colors.jpg",
     "sale": true,
   },
   {
     "id": 12,
-    "brand": "Puma",
+    "brand": "Puma green",
     "color": [
-      "white"
+      "green",
+      " white",
+      " pink",
     ],
-    "price": 10000,
-    "img": "-----",
+    "price": 5000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/puma-green.jpg",
     "sale": true,
   },
   {
     "id": 13,
-    "brand": "Puma",
+    "brand": "Puma grey",
     "color": [
-      "white"
+      "grey",
+      " white",
+      " black",
     ],
-    "price": 10000,
-    "img": "-----",
+    "price": 5000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/puma-grey.jpg",
     "sale": true,
   },
   {
     "id": 14,
-    "brand": "Puma",
+    "brand": "Puma pink",
     "color": [
-      "white"
+      "pink",
+      " black",
+      " grey",
     ],
-    "price": 10000,
-    "img": "-----",
-    "sale": true,
+    "price": 8000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/puma-pink.jpg",
+    "sale": false,
   },
   {
     "id": 15,
-    "brand": "Puma",
+    "brand": "Puma white",
     "color": [
-      "white"
+      "white",
     ],
-    "price": 10000,
-    "img": "-----",
-    "sale": true,
+    "price": 8000,
+    "img": "https://raw.githubusercontent.com/AgustinBraco/javascript/master/assets/puma-white.jpg",
+    "sale": false,
   }
 ]
 
