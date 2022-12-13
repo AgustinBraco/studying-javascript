@@ -40,7 +40,6 @@ const sale = [...product].filter((product) => {
 
 
 
-
 // EJECUCIÓN Y CONSOLES
 // Bienvenida
 alert("¡Bienvenide! \n Es una web de zapatillas, vas a poder: \n Filtrar por marca y modelo \n Ver orden por precio y color \n Ver solo ofertas.")

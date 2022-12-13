@@ -116,6 +116,6 @@ const product  = [{
     "model": "SPORT",
     "color": "NEGRO",
     "price": 10000,
-    "sale": false,
+    "sale": false
   }
 ];
