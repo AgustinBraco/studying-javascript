@@ -1,5 +1,6 @@
 const product  = [{
     "id": 0,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/nike-black.jpg?raw=true",
     "brand": "NIKE",
     "model": "SNEAKERS",
     "color": "NEGRO",
@@ -8,6 +9,7 @@ const product  = [{
 },
 {
     "id": 1,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/puma-white.jpg?raw=true",
     "brand": "PUMA",
     "model": "SNEAKERS",
     "color": "BLANCO",
@@ -16,6 +18,7 @@ const product  = [{
   },
   {
     "id": 2,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/adidas-green.jpg?raw=true",
     "brand": "ADIDAS",
     "model": "RUNNING",
     "color": "VERDE",
@@ -24,6 +27,7 @@ const product  = [{
   },
   {
     "id": 3,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/puma-grey.jpg?raw=true",
     "brand": "PUMA",
     "model": "RUNNING",
     "color": "GRIS",
@@ -32,6 +36,7 @@ const product  = [{
   },
   {
     "id": 4,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/adidas-blue.jpg?raw=true",
     "brand": "ADIDAS",
     "model": "SNEAKERS",
     "color": "AZUL",
@@ -40,6 +45,7 @@ const product  = [{
   },
   {
     "id": 5,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/nike-beige.jpg?raw=true",
     "brand": "NIKE",
     "model": "SNEAKERS",
     "color": "BEIGE",
@@ -48,6 +54,7 @@ const product  = [{
   },
   {
     "id": 6,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/puma-green.jpg?raw=true",
     "brand": "PUMA",
     "model": "SPORT",
     "color": "VERDE",
@@ -56,6 +63,7 @@ const product  = [{
   },
   {
     "id": 7,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/nike-orange.jpg?raw=true",
     "brand": "NIKE",
     "model": "RUNNING",
     "color": "NARANJA",
@@ -64,6 +72,7 @@ const product  = [{
   },
   {
     "id": 8,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/nike-purple.jpg?raw=true",
     "brand": "NIKE",
     "model": "SPORT",
     "color": "ROSA",
@@ -72,6 +81,7 @@ const product  = [{
   },
   {
     "id": 9,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/adidas-red.jpg?raw=true",
     "brand": "ADIDAS",
     "model": "RUNNING",
     "color": "ROJO",
@@ -80,14 +90,16 @@ const product  = [{
   },
   {
     "id": 10,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/puma-colors.jpg?raw=true",
     "brand": "PUMA",
     "model": "RUNNING",
-    "color": "VIOLETA",
+    "color": "COLORES",
     "price": 4000,
     "sale": true,
   },
   {
     "id": 11,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/nike-white.jpg?raw=true",
     "brand": "NIKE",
     "model": "SPORT",
     "color": "BLANCO",
@@ -96,6 +108,7 @@ const product  = [{
   },
   {
     "id": 12,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/adidas-white.jpg?raw=true",
     "brand": "ADIDAS",
     "model": "RUNNING",
     "color": "BLANCO",
@@ -104,6 +117,7 @@ const product  = [{
   },
   {
     "id": 13,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/puma-pink.jpg?raw=true",
     "brand": "PUMA",
     "model": "SNEAKERS",
     "color": "ROSA",
@@ -112,6 +126,7 @@ const product  = [{
   },
   {
     "id": 14,
+    "img": "https://github.com/AgustinBraco/javascript/blob/master/assets/adidas-black.jpg?raw=true",
     "brand": "ADIDAS",
     "model": "SPORT",
     "color": "NEGRO",

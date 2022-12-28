@@ -83,7 +83,6 @@ function allCards ( product ) {
         const card = document.createElement("div")
         card.className = "card"
         card.innerHTML = `
-            <div class="card">
                 <div>
                     <img src=${product.img} alt=${product.brand} class="image">
                 </div>
@@ -91,9 +90,9 @@ function allCards ( product ) {
                 <div class="textContainer">
                     <p class="textBrand">${product.brand}</p>
                     <p class="textModel">${product.model}</p>
-                    <p class="textPrice">${product.price}</p>
+                    <p class="textColor">${product.color}</p>
+                    <p class="textPrice">$ ${product.price}</p>
                 </div>
-            </div>
         `
         cardContainer.appendChild(card)
     })
@@ -109,7 +108,6 @@ function brandCards ( product ) {
         const card = document.createElement("div")
         card.className = "card"
         card.innerHTML = `
-            <div class="card">
                 <div>
                     <img src=${product[i].img} alt=${product[i].brand} class="image">
                 </div>
@@ -117,9 +115,9 @@ function brandCards ( product ) {
                 <div class="textContainer">
                     <p class="textBrand">${product[i].brand}</p>
                     <p class="textModel">${product[i].model}</p>
-                    <p class="textPrice">${product[i].price}</p>
+                    <p class="textColor">${product[i].color}</p>
+                    <p class="textPrice">$ ${product[i].price}</p>
                 </div>
-            </div>
         `
         cardContainer.appendChild(card)
         }
@@ -137,17 +135,16 @@ function modelCards ( product ) {
         const card = document.createElement("div")
         card.className = "card"
         card.innerHTML = `
-            <div class="card">
                 <div>
                     <img src=${product[i].img} alt=${product[i].brand} class="image">
                 </div>
 
                 <div class="textContainer">
-                    <p class="textBrand">${product[i].brand}</p>
-                    <p class="textModel">${product[i].model}</p>
-                    <p class="textPrice">${product[i].price}</p>
+                <p class="textBrand">${product[i].brand}</p>
+                <p class="textModel">${product[i].model}</p>
+                <p class="textColor">${product[i].color}</p>
+                <p class="textPrice">$ ${product[i].price}</p>
                 </div>
-            </div>
         `
         cardContainer.appendChild(card)
         }
@@ -163,7 +160,6 @@ function sale ( product ) {
         const card = document.createElement("div")
         card.className = "card"
         card.innerHTML = `
-            <div class="card">
                 <div>
                     <img src=${product[i].img} alt=${product[i].brand} class="image">
                     <p class="sale">SALE</p>
@@ -172,9 +168,9 @@ function sale ( product ) {
                 <div class="textContainer">
                     <p class="textBrand">${product[i].brand}</p>
                     <p class="textModel">${product[i].model}</p>
-                    <p class="textPrice">${product[i].price}</p>
+                    <p class="textColor">${product[i].color}</p>
+                    <p class="textPrice">$ ${product[i].price}</p>
                 </div>
-            </div>
         `
         cardContainer.appendChild(card)
         }
