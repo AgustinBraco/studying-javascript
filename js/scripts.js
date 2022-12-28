@@ -70,6 +70,7 @@ formLogin.onsubmit = (event) => {
         textLogin.style.display = "none"
         logoutButton.style.display = "flex"
         textLoged.style.display = "flex"
+        location.reload()
     } else {
         alert("Datos incorrectos")
     }
