@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    font-size: 30px;
+    background-color: grey;
+    color: white;
+}
+
+.textLogin {
+    display: flex;
+    align-items: center;
+}
+
+.textLoged {
+    display: none;
+    align-items: center;
+}
+
+.logoutButton {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+}
+
+.formContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+}
+
+input {
+    width: 600px;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.sendButton {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: none;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+}
+
+.filterContainer {
+    display: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 20%;
+}
+
+.buttonBack {
+    display: none;
+}
+
+.buttonBack, .buttonAll, .buttonSort, .buttonBrand, .buttonModel, .buttonSale {
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 90%;
+    height: 60px;
+    font-size: 30px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+
+.card { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 600px;
+    border: 2px solid lightgrey;
+    margin: 10px;
+}
+
+.image {
+    width: 350px;
+    height: 350px; 
+}
+
+.textContainer {
+    margin: auto;
+}
+
+.textBrand {
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+}
+
+.textModel {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+
+.textPrice {
+    font-size: 35px;
+    color: black;
+    font-weight: normal;
+}
+
+.sale {
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: 354px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}

@@ -5,16 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-
+        <h1 class="textLogin">Iniciar sesión</h1>
+        <h2 class="textLoged">Sesión iniciada</h2>
+        <button id="logout" class="logoutButton">Cerrar sesión</button>
     </header>
 
     <main>
-        <h2>Ver consola</h2>
+        <form action="" id="form-login" class="formContainer">
+            <input type="text" placeholder="Usuario" id="input-user">
+            <input type="text" placeholder="Contraseña" id="input-password">
+            <button class="sendButton">Confirmar</button>
+        </form>
+        
+        <div class="container"> 
+
+            <div class="filterContainer">
+                <button class="buttonBack">Volver</button>
+
+                <button class="buttonAll">Ver todo</button>
+                <button class="buttonSort">Menor a mayor</button>
+                <button class="buttonBrand">Filtrar por marca</button>
+                <button class="buttonModel">Filtrar por modelo</button>
+                <button class="buttonSale">Solo ofertas</button>
+            </div>
+
+            <div class="cardContainer"></div>
+
+        </div>
+
     </main>
 
     <footer>
