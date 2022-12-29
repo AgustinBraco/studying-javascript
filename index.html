@@ -13,28 +13,53 @@
     <header>
         <h1 class="textLogin">Iniciar sesión</h1>
         <h2 class="textLoged">Sesión iniciada</h2>
+        <!-- Botón cerrar sesion -->
         <button id="logout" class="logoutButton">Cerrar sesión</button>
     </header>
 
     <main>
+        <!-- Info login -->
+        <h3>Usuario: user1 <br>
+            Contraseña: pass1
+        </h3>
+
+        <!-- Formulario login -->
         <form action="" id="form-login" class="formContainer">
             <input type="text" placeholder="Usuario" id="input-user">
             <input type="text" placeholder="Contraseña" id="input-password">
-            <button class="sendButton">Confirmar</button>
+            <button class="sendButton">Ingresar</button>
         </form>
         
         <div class="container"> 
 
+            <!-- Filtros -->
             <div class="filterContainer">
-                <button class="buttonBack">Volver</button>
+                
+                <!-- Botón restablecer -->
+                <button class="buttonRestore">Restablecer</button>
 
+                <!-- Botones principales  -->
                 <button class="buttonAll">Ver todo</button>
-                <button class="buttonSort">Menor a mayor</button>
+                <button class="buttonSort">Por precio</button>
                 <button class="buttonBrand">Filtrar por marca</button>
                 <button class="buttonModel">Filtrar por modelo</button>
                 <button class="buttonSale">Solo ofertas</button>
+
+                <!-- Botones secundarios  -->
+                <button class="buttonBrandAdidas">Adidas</button>
+                <button class="buttonBrandNike">Nike</button>
+                <button class="buttonBrandPuma">Puma</button>
+
+                <button class="buttonSortLow">Menor a mayor</button>
+                <button class="buttonSortHigh">Mayor a menor</button>
+
+                <button class="buttonModelSneakers">Sneakers</button>
+                <button class="buttonModelSport">Sport</button>
+                <button class="buttonModelRunning">Running</button>
+                
             </div>
 
+            <!-- Cards -->
             <div class="cardContainer"></div>
 
         </div>
@@ -45,6 +70,7 @@
         
     </footer>
 
+    <!-- Scripts -->
     <script src="./js/product.js"></script>
     <script src="./js/scripts.js"></script>
     
