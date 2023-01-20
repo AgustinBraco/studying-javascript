@@ -1,4 +1,3 @@
-// DOM
 const loginContainer = document.querySelector(".loginContainer");
 const formLogin = document.querySelector(".formLogin");
 const inputUser = document.querySelector(".inputUser");
@@ -50,6 +49,7 @@ formLogin.onsubmit = (event) => {
         pushJSON("login", true)
         swal({
             icon: "success",
+            text: "Sesión iniciada",
             timer: 1500,
           });
         loginContainer.style.display = "none"
