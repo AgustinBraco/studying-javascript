@@ -1,197 +1,177 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
+}
+
+.swal-title {
+    font-size: 5rem;
+    color: black;
+}
+
+.swal-text {
+    font-size: 3.5rem;
+    text-align: center;
+    color: rgb(91, 91, 91);
+}
+
+.swal-footer {
+    background-color: rgb(255, 237, 240);
+    margin-top: 4rem;
+}
+
+.swal-button {
+    display: none;
+}
+
+.loginContainer {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+h2 {
+    font-size: 6rem;
+    margin-top: 10rem;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.inputUser, .inputPassword {
+    margin-block: 4rem;
+    width: 60rem;
+    height: 7rem;
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.sendForm {
+    font-size: 4.5rem;
+    transition: all ease 0.5s;
+    width: 18rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: 0;
+}
+
+.sendForm:hover {
+    background-color: rgb(255, 237, 240);
 }
 
 header {
+    display: none;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255, 253, 253);
+    box-shadow: 0px 5px 53px -3px rgba(156,156,156,0.75);
+    -webkit-box-shadow: 0px 5px 53px -3px rgba(156,156,156,0.75);
+    -moz-box-shadow: 0px 5px 53px -3px rgba(156,156,156,0.75);
+}
+
+ul {
     display: flex;
-    justify-content: space-around;
-    height: 10rem;
-    font-size: 3rem;
-    background-color: grey;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    margin: 1.5rem;
+    text-align: center;
+    transition: all ease 0.4s;
+}
+
+li:hover {
+    transform: scale(1.12);
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    font-size: 4rem;
+    width: 15rem;
+}
+
+.buttonFilter {
+    background-color: rgb(233, 233, 233);
+}
+
+.buttonAll {
+    background-color: rgb(186, 255, 186);
+}
+
+.buttonClose {
+    background-color: rgb(255, 149, 149);
     color: white;
-}
-
-h3 {
-    padding-top: 2.5rem;
-    text-align: center;
-    font-size: 2.5rem;
-    color: grey;
-}
-
-.textLogin {
-    display: flex;
-    align-items: center;
-}
-
-.textLoged {
-    display: none;
-    align-items: center;
-}
-
-.logoutButton {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin: auto 0;
-    height: 7rem;
-    width: 20rem;
-    font-size: 2.5rem;
-}
-
-.formContainer {
-    display: flex;
-    flex-flow: column nowrap;
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
-    width: 100rem;
-    height: 40rem;
-}
-
-input {
-    width: 60rem;
-    height: 6rem;
-    font-size: 2.5rem;
-    text-align: center;
-}
-
-.sendButton {
-    height: 4rem;
-    width: 20rem;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container {
     display: none;
-    margin: auto;
-    justify-content: center;
-    width: 90%;
-}
-
-.filterContainer {
-    display: none;
-    flex-flow: column wrap;
-    align-items: center;
-    width: 20%;
-}
-
-.buttonRestore {
-    position: sticky;
-    top: 3rem;
-    color: red;
-    border: solid red 1px;
-    background-color: white;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem;
-    width: 90%;
-    height: 6rem;
-    font-size: 3rem;
-}
-
-.buttonBrandAdidas, .buttonBrandNike, .buttonBrandPuma, .buttonModelSneakers, .buttonModelSport, .buttonModelRunning, .buttonSortLow, .buttonSortHigh  {
-    color: blue;
-    border: solid blue 1px;
-    background-color: white;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem;
-    width: 90%;
-    height: 6rem;
-    font-size: 3rem;
-}
-
-.buttonAll, .buttonSort, .buttonBrand, .buttonModel, .buttonSale {
-    color: green;
-    border: solid green 1px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem;
-    width: 90%;
-    height: 6rem;
-    font-size: 3rem;
-}
-
-.cardContainer {
-    display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: auto;
-    width: 80%;
+    margin-block: 5rem;
 }
 
-.card { 
+.card {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
+    width: 45rem;
+    margin: 1rem;
+    background-color: rgb(255, 237, 240);
+    border-radius: 3rem;
+}
+
+.card-image {
+    width: 26rem;
+}
+
+.card-id {
+    font-size: 4rem;
+    color: rgb(176, 175, 175);
+}
+
+.card-name {
+    font-size: 8rem;
+}
+
+.card-type {
+    font-size: 5rem;
+    color: rgb(71, 71, 71);
+}
+
+.card-weight {
+    font-size: 3rem;
+    color: rgb(71, 71, 71);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    width: 35rem;
-    height: 60rem;
-    border: 3px solid lightgrey;
     margin: 1rem;
 }
 
-.image {
-    width: 34.4rem;
-    height: 34.4rem;
-}
-
-.textContainer {
-    margin: auto;
-}
-
-.textBrand {
-    padding: 0.3rem;
-    font-size: 4.5rem;
+a {
+    display: none;
+    font-size: 7rem;
     color: black;
-    font-weight: bold;
+    transition: ease all 0.5s;
 }
 
-.textModel {
-    padding: 0.3rem;
-    font-size: 3.5rem;
-    color: black;
-    font-weight: normal;
-}
-
-.textColor {
-    padding: 1rem;
-    font-size: 2.5rem;
-    color: black;
-    font-weight: lighter;
-}
-
-.textPrice {
-    padding: 1rem;
-    font-size: 3.5rem;
-    color: black;
-    font-weight: bold;
-}
-
-.sale {
-    background-color: black;
-    color: white;
-    margin: 0;
-    width: 35rem;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2.4rem;
+a:hover {
+    transform: scale(1.15);
 }

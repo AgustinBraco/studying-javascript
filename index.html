@@ -4,75 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Pokedex</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header>
-        <h1 class="textLogin">Iniciar sesión</h1>
-        <h2 class="textLoged">Sesión iniciada</h2>
-        <!-- Botón cerrar sesion -->
-        <button id="logout" class="logoutButton">Cerrar sesión</button>
+        <nav>
+            <ul>
+                <li><button class="buttonFilter buttonAll" id="all">Todos</button></li>
+                <li><button class="buttonFilter" id="normal">Normal</button></li>
+                <li><button class="buttonFilter" id="fire">Fire</buttonal></li>
+                <li><button class="buttonFilter" id="water">Water</buttoneader></li>
+                <li><button class="buttonFilter" id="grass">Grass</button></li>
+                <li><button class="buttonFilter" id="electric">Electric</button></li>
+                <li><button class="buttonFilter" id="ice">Ice</buttonctric></li>
+                <li><button class="buttonFilter" id="fighting">Fighting</button></li>
+                <li><button class="buttonFilter" id="poison">Poison</button></li>
+                <li><button class="buttonFilter" id="ground">Ground</button></li>
+                <li><button class="buttonFilter" id="flying">Flying</button></li>
+                <li><button class="buttonFilter" id="psychic">Psychic</button></li>
+                <li><button class="buttonFilter" id="bug">Bug</button></li>
+                <li><button class="buttonFilter" id="rock">Rock</button></li>
+                <li><button class="buttonFilter" id="ghost">Ghost</button></li>
+                <li><button class="buttonFilter" id="dark">Dark</buttont></li>
+                <li><button class="buttonFilter" id="dragon">Dragon</button></li>
+                <li><button class="buttonFilter" id="steel">Steel</button></li>
+                <li><button class="buttonFilter" id="fairy">Fairy</button></li>
+                <li><button id="logout" class="buttonClose">Cerrar</button></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <!-- Info login -->
-        <h3>Usuario: user1 <br>
-            Contraseña: pass1
-        </h3>
-
-        <!-- Formulario login -->
-        <form action="" id="form-login" class="formContainer">
-            <input type="text" placeholder="Usuario" id="input-user">
-            <input type="text" placeholder="Contraseña" id="input-password">
-            <button class="sendButton">Ingresar</button>
-        </form>
-        
-        <div class="container"> 
-
-            <!-- Filtros -->
-            <div class="filterContainer">
-                
-                <!-- Botón restablecer -->
-                <button class="buttonRestore">Restablecer</button>
-
-                <!-- Botones principales  -->
-                <button class="buttonAll">Ver todo</button>
-                <button class="buttonSort">Por precio</button>
-                <button class="buttonBrand">Filtrar por marca</button>
-                <button class="buttonModel">Filtrar por modelo</button>
-                <button class="buttonSale">Solo ofertas</button>
-
-                <!-- Botones secundarios  -->
-                <button class="buttonBrandAdidas">Adidas</button>
-                <button class="buttonBrandNike">Nike</button>
-                <button class="buttonBrandPuma">Puma</button>
-
-                <button class="buttonSortLow">Menor a mayor</button>
-                <button class="buttonSortHigh">Mayor a menor</button>
-
-                <button class="buttonModelSneakers">Sneakers</button>
-                <button class="buttonModelSport">Sport</button>
-                <button class="buttonModelRunning">Running</button>
-                
-            </div>
-
-            <!-- Cards -->
-            <div class="cardContainer"></div>
-
+    <main id="main">
+        <div class="loginContainer">
+            <h2>Iniciar sesión</h2>
+            <form class="formLogin">
+                <input type="text" placeholder="Usuario" class="inputUser">
+                <input type="text" placeholder="Contraseña" class="inputPassword">
+                <input type="submit" class="sendForm" value="Ingresar">
+            </form>
         </div>
 
+        <div class="container"></div>
     </main>
 
     <footer>
-        
+        <a href="#main">Subir</a>
     </footer>
 
-    <!-- Scripts -->
-    <script src="./js/product.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./js/scripts.js"></script>
-    
 </body>
+
 </html>
