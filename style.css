@@ -100,8 +100,8 @@ li:hover {
 button {
     background-color: transparent;
     border: 0;
-    font-size: 4rem;
-    width: 15rem;
+    font-size: 3rem;
+    width: 10rem;
 }
 
 .buttonFilter {
@@ -129,14 +129,14 @@ button {
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
-    width: 45rem;
+    width: 35rem;
     margin: 1rem;
     background-color: rgb(255, 237, 240);
     border-radius: 3rem;
 }
 
 .card-image {
-    width: 26rem;
+    width: 20rem;
 }
 
 .card-id {
@@ -145,16 +145,16 @@ button {
 }
 
 .card-name {
-    font-size: 8rem;
+    font-size: 6rem;
 }
 
 .card-type {
-    font-size: 5rem;
+    font-size: 4rem;
     color: rgb(71, 71, 71);
 }
 
 .card-weight {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: rgb(71, 71, 71);
 }
 
