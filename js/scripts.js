@@ -38,7 +38,7 @@ function checkLogin (key) {
             text: "Usuario: user123 \n Contraseña: pass123",
             timer: 5000
           });
-    }
+    };
 };
 
 checkLogin(getJSON("login"));
@@ -113,8 +113,8 @@ buttonFilter.forEach(button => button.addEventListener("click", (event) => {
                 const types = data.types.map(type => type.type.name)
                 if (types.some(type => type.includes(buttonId))) {
                     createCard(data)
-                }
-            }
-        })
-    }
+                };
+            };
+        });
+    };
 }));
